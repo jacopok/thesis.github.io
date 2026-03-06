@@ -24,3 +24,34 @@ allows for reproducibility and transparency.
 I did not, however, adopt it for all figures, as several of them are rather complex
 and/or computationally intensive to generate. 
 
+Here is an example of a plot rendered during deployment:
+
+```{python}
+import numpy as np
+import matplotlib.pyplot as plt
+
+kwargs = {
+    'fmt': 'o',
+    'capsize': 5,
+    'alpha': .8,
+}
+
+rng = np.random.default_rng(seed=1)
+
+n_points = 20
+
+x_i = np.linspace(-5, 5, num=n_points)
+sigma_y = 1
+true_a = -0.1
+true_b = 0.5
+true_c = 3
+
+def model(x, a, b, c):
+    return a*x**2 + b*x + c
+
+y_i = model(x_i, true_a, true_b, true_c) + rng.normal(scale=sigma_y, size=n_points)
+
+_ = plt.errorbar(x_i, y_i, sigma_y, **kwargs)
+_ = plt.xlabel('$x$')
+_ = plt.ylabel('$y$')
+```
