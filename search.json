@@ -1,0 +1,22 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Fast analysis of long gravitational wave signals",
+    "section": "",
+    "text": "Preface\nThe hope is for this to be a “living document” of sorts, which I can keep updating after graduation.\nThis thesis is simultaneously compiled with quarto into both HTML — as a static website — and PDF. The HTML version is interactive, with hyperlinks, the possibility to see internal and external references by mouse over, and a dynamic table of contents. Also, several figures are rendered just-in-time from python code, which can be seen directly within the website. This literate programming-like approach (Knuth 1984) allows for reproducibility and transparency. I did not, however, adopt it for all figures, as several of them are rather complex and/or computationally intensive to generate.\n\n\n\n\nKnuth, D. E. 1984. “Literate Programming.” The Computer Journal 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "chapters/references.html",
+    "href": "chapters/references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, D. E. 1984. “Literate Programming.”\nThe Computer Journal 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
