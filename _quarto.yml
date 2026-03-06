@@ -1,0 +1,27 @@
+
+bibliography: rehear.bib
+
+format:
+  html:
+    theme: 
+      light:
+        cosmo
+      dark:
+        [cosmo, theme_dark.css]
+    embed-resources: false
+    filters: 
+      - pdf-to-webp.lua
+    reference-location: margin
+    # citation-location: margin
+  pdf:
+    documentclass: scrreprt
+    colorlinks: true
+    linkcolor: blue
+    link-citations: true
+    thanks: "Supervisor: Jan Harms"
+
+execute:
+  cache: true
+  warning: false
+
+

@@ -1,0 +1,14 @@
+[project]
+name = "thesis"
+version = "0.1.0"
+description = "Scripts for the thesis"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipython>=8.18.1",
+    "jupyter-cache>=1.0.1",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.9.2",
+    "numpy>=1.26.4",
+    "quarto-cli>=1.5.57",
+]
