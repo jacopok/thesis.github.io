@@ -9,3 +9,4 @@ book:
   downloads: "pdf"
   chapters:
     - index.qmd
+    - chapters/references.qmd
